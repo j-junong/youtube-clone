@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    font-family: Roboto, Arial;
+    padding-left: 260px;
+    padding-top: 130px;
+}
+
+h3, p {
+    margin: 0;
+}

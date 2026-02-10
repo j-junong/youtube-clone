@@ -1,0 +1,45 @@
+.video-container {
+    width: 355px;
+}
+.thumbnail {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.video-info-container {
+    display: flex;
+    align-items: top;
+    justify-content: start;
+}
+
+.channel-image {
+    width: 40px;
+    border-radius: 999px;
+}
+
+
+.video-info {
+    width: 290px;
+    padding-left: 10px;
+}
+
+.title {
+    font-size: 16px;
+    width: 100%;
+}
+
+.channel-name, .video-stats {
+    color: #9b9b9b;
+    font-size: 14px;
+}
+
+.video-settings {
+    position: relative;
+}
+
+.video-settings-icon {
+    position: absolute;
+    top: -2px;
+    right: -20px;
+}
