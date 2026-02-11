@@ -1,3 +1,9 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+}
+
 .video-container {
     width: 355px;
 }
