@@ -5,12 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/video.css">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>YouTube Clone</title>
 </head>
 <body>
+    <!-- Nav Bar -->
+    <nav class="nav-container">
+        <div class="left-nav">
+            <img src="youtube-icons/hamburger.svg" alt="Show/Hide Sidebar" class="hamburger">
+            <div class="youtube-logo">
+                <img src="youtube-icons/youtube-logo.svg" alt="YouTube logo" class="youtube">
+                <p class="country-code">AU</p>
+            </div>
+        </div>
+        <div class="middle-nav">
+            <input type="text" placeholder="Search" class="search-bar">
+            <button class="search-button">
+                <img src="youtube-icons/search.svg" alt="" class="search-icon">
+            </button>
+            <button class="voice-button">
+                <img src="youtube-icons/microphone.svg" alt="" class="voice-icon">
+            </button>
+        </div>
+        <div class="right-nav">
+            <img src="youtube-icons/more.svg" alt="" class="setting-dots">
+            <button class="sign-in-button">
+                <img src="youtube-icons/profile-icon.svg" alt="">
+                <p class="sign-in-text">Sign in</p>
+            </button>
+        </div>
+    </nav>
     <!-- Sidebar -->
     <!-- Video -->
     <div class="video-container">

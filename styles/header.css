@@ -1,0 +1,101 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.hamburger {
+    margin-left: 20px;
+}
+
+.youtube-logo {
+    position: relative;
+}
+
+.youtube {
+    margin-left: 20px;
+}
+
+.country-code {
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    color: #aaaaaa;
+    font-size: 10px;
+}
+
+.middle-nav {
+    display: flex;
+    width: 600px;
+}
+
+.search-bar {
+    max-width: 450px;
+    border-width: 1px;
+    flex: 1;
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search-bar::placeholder {
+    font-size: 16px;
+}
+
+.search-button {
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+    border-width: 1px;
+    padding: 0 10px;
+    width: 60px;
+    margin-left: -2px;
+}
+
+.voice-button {
+    margin-left: 15px;
+    border-radius: 999px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: none;
+}
+
+.voice-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.right-nav {
+    display: flex;
+    margin-right: 15px;
+}
+
+.sign-in-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #515151;
+    border-radius: 999px;
+    padding: 6px 10px;
+    justify-content: space-between;
+    width: 95px;
+}
+
+.sign-in-text {
+    margin-right: 5px;
+}
+
+.setting-dots {
+    margin-right: 20px;
+}
