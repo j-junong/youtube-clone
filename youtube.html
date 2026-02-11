@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/video.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -34,25 +35,78 @@
             <img src="youtube-icons/more.svg" alt="" class="setting-dots">
             <button class="sign-in-button">
                 <img src="youtube-icons/profile-icon.svg" alt="">
-                <p class="sign-in-text">Sign in</p>
+                <p class="sign-in-text-top">Sign in</p>
             </button>
         </div>
     </nav>
     <!-- Sidebar -->
+     <div class="sidebar-container">
+        <div class="top-div">
+            <div class="icon-container">
+                <img src="youtube-icons/home.svg" alt="" class="sidebar-icon">
+                <p class="icon-text"><strong>Home</strong></p>
+            </div>
+            <div class="icon-container">
+                <img src="youtube-icons/shorts.svg" alt="" class="sidebar-icon">
+                <p class="icon-text">Shorts</p>
+            </div>
+            <div class="icon-container">
+                <img src="youtube-icons/subscriptions.svg" alt="" class="sidebar-icon">
+                <p class="icon-text">Subscriptions</p>
+            </div>
+            <div class="icon-container">
+                <img src="youtube-icons/profile-icon.svg" alt="" class="sidebar-icon">
+                <p class="icon-text">You</p>
+            </div>
+            <div class="icon-container">
+                <img src="youtube-icons/history.svg" alt="" class="sidebar-icon">
+                <p class="icon-text">History</p>
+            </div>
+            <div class="border"></div>
+        </div>
+        <div class="mid-div">
+            <p class="sign-in-text">Sign in to like videos, comment, and subscribe.</p>
+            <button class="sign-in-button-blue">
+                <img src="youtube-icons/profile-icon.svg" alt="">
+                <p class="sign-in-text-blue">Sign in</p>
+            </button>
+        </div>
+        <div class="bottom-div">
+            <h3 class="explore">Explore</h3>
+            <div class="icon-container">
+                <img src="youtube-icons/music.svg" alt="" class="sidebar-icon">
+                <p class="icon-text">Music</p>
+            </div>
+            <div class="icon-container">
+                <img src="youtube-icons/movies-tv.svg" alt="" class="sidebar-icon">
+                <p class="icon-text">Movies & TV</p>
+            </div>
+            <div class="icon-container">
+                <img src="youtube-icons/gaming.svg" alt="" class="sidebar-icon">
+                <p class="icon-text">Gaming</p>
+            </div>
+            <div class="icon-container">
+                <img src="youtube-icons/arrow-down.svg" alt="" class="sidebar-icon">
+                <p class="icon-text">Show more</p>
+            </div>
+        </div>
+     </div>
     <!-- Video -->
-    <div class="video-container">
-        <img src="thumbnails/shadow-fight.jpg" alt="Shadow AI" class="thumbnail">
-        <div class="video-info-container">
-            <div class="channel-container">
-                <img src="channel-icons/dinygamerlk.jpg" alt="Diny" class="channel-image">
-            </div>
-            <div class="video-info">
-                <h3 class="title">ChatGPT vs Gemini make Shadow Fight 2 from Scratch</h3>
-                <p class="channel-name">DinyGamerLK</p>
-                <p class="video-stats">23K views &#183; 9 days ago</p>
-            </div>
-            <div class="video-settings">
-                <img src="youtube-icons/more.svg" alt="More" class="video-settings-icon">
+    <div class="video-grid">
+        <div class="video-container">
+            <img src="thumbnails/shadow-fight.jpg" alt="Shadow AI" class="thumbnail">
+            <div class="video-info-container">
+                <div class="channel-container">
+                    <img src="channel-icons/dinygamerlk.jpg" alt="Diny" class="channel-image">
+                </div>
+                <div class="video-info">
+                    <h3 class="title">ChatGPT vs Gemini make Shadow Fight 2 from Scratch</h3>
+                    <p class="channel-name">DinyGamerLK</p>
+                    <p class="video-stats">23K views &#183; 9 days ago</p>
+                </div>
+                <div class="video-settings">
+                    <img src="youtube-icons/more.svg" alt="More" class="video-settings-icon">
+                </div>
             </div>
         </div>
     </div>
